@@ -11,6 +11,7 @@
 		6A8D58CF2AD2A9DD00EBAA89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8D58CE2AD2A9DD00EBAA89 /* ContentView.swift */; };
 		6A8D58D12AD2A9E100EBAA89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8D58D02AD2A9E100EBAA89 /* Assets.xcassets */; };
 		6A8D58D42AD2A9E100EBAA89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8D58D32AD2A9E100EBAA89 /* Preview Assets.xcassets */; };
+		6A8D58DD2AD2BCFC00EBAA89 /* WeatherServiceAndModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8D58DC2AD2BCFC00EBAA89 /* WeatherServiceAndModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		6A8D58CE2AD2A9DD00EBAA89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A8D58D02AD2A9E100EBAA89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A8D58D32AD2A9E100EBAA89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A8D58DA2AD2B47900EBAA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A8D58DC2AD2BCFC00EBAA89 /* WeatherServiceAndModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherServiceAndModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +56,9 @@
 			children = (
 				6A8D58CC2AD2A9DD00EBAA89 /* weather_appApp.swift */,
 				6A8D58CE2AD2A9DD00EBAA89 /* ContentView.swift */,
+				6A8D58DC2AD2BCFC00EBAA89 /* WeatherServiceAndModels.swift */,
 				6A8D58D02AD2A9E100EBAA89 /* Assets.xcassets */,
+				6A8D58DA2AD2B47900EBAA89 /* Info.plist */,
 				6A8D58D22AD2A9E100EBAA89 /* Preview Content */,
 			);
 			path = weather_app;
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A8D58CF2AD2A9DD00EBAA89 /* ContentView.swift in Sources */,
+				6A8D58DD2AD2BCFC00EBAA89 /* WeatherServiceAndModels.swift in Sources */,
 				6A8D58CD2AD2A9DD00EBAA89 /* weather_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
